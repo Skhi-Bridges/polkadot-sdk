@@ -4,8 +4,8 @@ description = "Zombienet backchannel to notify test runner and coordinate with m
 readme = "README.md"
 publish = false
 version = "1.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 
 [lints]
@@ -22,3 +22,4 @@ thiserror = { workspace = true }
 tokio = { features = ["macros", "net", "rt-multi-thread", "sync"], workspace = true }
 tokio-tungstenite = { workspace = true }
 url = { workspace = true }
+

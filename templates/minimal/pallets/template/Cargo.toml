@@ -3,10 +3,10 @@ name = "pallet-minimal-template"
 description = "A minimal pallet built with FRAME, part of Polkadot Sdk."
 version = "0.0.0"
 license = "Unlicense"
-authors.workspace = true
-homepage.workspace = true
-repository.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
+edition = "2021"
 publish = false
 
 [package.metadata.docs.rs]
@@ -24,3 +24,4 @@ scale-info = { features = ["derive"], workspace = true }
 [features]
 default = ["std"]
 std = ["codec/std", "polkadot-sdk/std", "scale-info/std"]
+

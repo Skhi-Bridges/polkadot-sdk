@@ -1,11 +1,11 @@
 [package]
 name = "frame-metadata-hash-extension"
 version = "0.1.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "FRAME signed extension for verifying the metadata hash"
 
 [dependencies]
@@ -39,3 +39,4 @@ std = [
 	"scale-info/std",
 	"sp-runtime/std",
 ]
+

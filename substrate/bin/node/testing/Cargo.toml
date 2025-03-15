@@ -1,12 +1,12 @@
 [package]
 name = "node-testing"
 version = "3.0.0-dev"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "Test utilities for Substrate node."
-edition.workspace = true
+edition = "2021"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 publish = false
 
 [lints]
@@ -50,3 +50,4 @@ sp-runtime = { workspace = true, default-features = true }
 sp-timestamp = { workspace = true }
 substrate-test-client = { workspace = true }
 tempfile = { workspace = true }
+

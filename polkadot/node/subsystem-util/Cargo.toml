@@ -2,11 +2,11 @@
 name = "polkadot-node-subsystem-util"
 description = "Subsystem traits and message definitions"
 version = "7.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -53,3 +53,4 @@ log = { workspace = true, default-features = true }
 polkadot-node-subsystem-test-helpers = { workspace = true }
 polkadot-primitives-test-helpers = { workspace = true }
 tempfile = { workspace = true }
+

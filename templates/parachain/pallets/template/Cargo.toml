@@ -3,10 +3,10 @@ name = "pallet-parachain-template"
 description = "FRAME pallet template for defining custom runtime logic."
 version = "0.0.0"
 license = "Unlicense"
-authors.workspace = true
-homepage.workspace = true
-repository.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
+edition = "2021"
 publish = false
 
 [package.metadata.docs.rs]
@@ -26,3 +26,4 @@ default = ["std"]
 runtime-benchmarks = ["frame/runtime-benchmarks"]
 std = ["codec/std", "frame/std", "scale-info/std"]
 try-runtime = ["frame/try-runtime"]
+

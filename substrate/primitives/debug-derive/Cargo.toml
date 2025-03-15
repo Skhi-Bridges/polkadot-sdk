@@ -1,11 +1,11 @@
 [package]
 name = "sp-debug-derive"
 version = "14.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Macros to derive runtime debug implementation."
 documentation = "https://docs.rs/sp-debug-derive"
 
@@ -33,3 +33,4 @@ std = []
 force-debug = []
 
 [dev-dependencies]
+

@@ -2,11 +2,11 @@
 name = "polkadot-gossip-support"
 version = "7.0.0"
 description = "Polkadot Gossip Support subsystem. Responsible for keeping track of session changes and issuing a connection request to the relevant validators on every new session."
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -42,3 +42,4 @@ assert_matches = { workspace = true }
 async-trait = { workspace = true }
 parking_lot = { workspace = true, default-features = true }
 quickcheck = { workspace = true, default-features = true }
+

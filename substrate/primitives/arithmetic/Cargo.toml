@@ -1,11 +1,11 @@
 [package]
 name = "sp-arithmetic"
 version = "23.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Minimal fixed point arithmetic primitives and types for runtime."
 documentation = "https://docs.rs/sp-arithmetic"
 readme = "README.md"
@@ -49,3 +49,4 @@ serde = ["dep:serde", "scale-info/serde"]
 [[bench]]
 name = "bench"
 harness = false
+

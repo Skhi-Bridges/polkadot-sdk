@@ -2,11 +2,11 @@
 name = "substrate-cli-test-utils"
 description = "CLI testing utilities"
 version = "0.1.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 publish = false
 
 [lints]
@@ -30,3 +30,4 @@ tokio = { features = ["full"], workspace = true, default-features = true }
 
 [features]
 try-runtime = ["node-cli/try-runtime"]
+

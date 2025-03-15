@@ -1,12 +1,12 @@
 [package]
 name = "binary-merkle-tree"
 version = "13.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-repository.workspace = true
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "A no-std/Substrate compatible library to construct binary merkle tree."
-homepage.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -33,3 +33,4 @@ std = [
 	"sp-core/std",
 	"sp-runtime/std",
 ]
+

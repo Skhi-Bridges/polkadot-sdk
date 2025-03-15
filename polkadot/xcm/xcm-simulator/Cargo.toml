@@ -2,11 +2,11 @@
 name = "xcm-simulator"
 description = "Test kit to simulate cross-chain message passing and XCM execution"
 version = "7.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -29,3 +29,4 @@ polkadot-runtime-parachains = { workspace = true, default-features = true }
 xcm = { workspace = true, default-features = true }
 xcm-builder = { workspace = true, default-features = true }
 xcm-executor = { workspace = true, default-features = true }
+

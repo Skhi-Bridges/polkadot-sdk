@@ -1,12 +1,12 @@
 [package]
 name = "tracing-gum-proc-macro"
 version = "5.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 description = "Generate an overseer including builder pattern and message wrapper from a single annotated struct definition."
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -33,3 +33,4 @@ default = []
 # write the expanded version to a `gum.[a-f0-9]{10}.rs`
 # in the `OUT_DIR` as defined by `cargo` for the `expander` crate.
 expand = []
+

@@ -1,9 +1,9 @@
 [package]
 name = "cumulus-pallet-dmp-queue"
 version = "0.7.0"
-authors.workspace = true
-edition.workspace = true
-repository.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Migrates messages from the old DMP queue pallet."
 license = "Apache-2.0"
 
@@ -64,3 +64,4 @@ try-runtime = [
 	"frame-system/try-runtime",
 	"sp-runtime/try-runtime",
 ]
+

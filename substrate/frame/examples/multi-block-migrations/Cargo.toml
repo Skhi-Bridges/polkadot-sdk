@@ -1,11 +1,11 @@
 [package]
 name = "pallet-example-mbm"
 version = "0.1.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Example FRAME pallet for multi-block migrations"
 publish = false
 
@@ -45,3 +45,4 @@ try-runtime = [
 	"frame-system/try-runtime",
 	"pallet-migrations/try-runtime",
 ]
+

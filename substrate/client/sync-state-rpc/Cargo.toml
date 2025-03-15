@@ -1,12 +1,12 @@
 [package]
 name = "sc-sync-state-rpc"
 version = "0.34.0"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "A RPC handler to create sync states for light clients."
-edition.workspace = true
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -27,3 +27,4 @@ serde_json = { workspace = true, default-features = true }
 sp-blockchain = { workspace = true, default-features = true }
 sp-runtime = { workspace = true, default-features = true }
 thiserror = { workspace = true }
+

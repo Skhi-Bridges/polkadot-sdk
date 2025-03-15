@@ -1,12 +1,12 @@
 [package]
 name = "staging-chain-spec-builder"
 version = "1.6.1"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 build = "build.rs"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 publish = true
 description = "Utility for building chain-specification files for Substrate-based runtimes based on `sp-genesis-builder`"
 
@@ -46,3 +46,4 @@ substrate-test-runtime = { workspace = true }
 [features]
 # `cargo build --feature=generate-readme` updates the `README.md` file.
 generate-readme = []
+

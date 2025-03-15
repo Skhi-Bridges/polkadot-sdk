@@ -2,10 +2,10 @@
 name = "pallet-example-frame-crate"
 version = "0.0.1"
 authors = ["Parity Technologies <admin@parity.io>"]
-edition.workspace = true
+edition = "2021"
 license = "MIT-0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "FRAME example pallet with umbrella crate"
 publish = false
 
@@ -25,3 +25,4 @@ frame = { features = ["runtime"], workspace = true }
 [features]
 default = ["std"]
 std = ["codec/std", "frame/std", "scale-info/std"]
+

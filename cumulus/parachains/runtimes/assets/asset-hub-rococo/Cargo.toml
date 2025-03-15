@@ -1,12 +1,12 @@
 [package]
 name = "asset-hub-rococo-runtime"
 version = "0.11.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 description = "Rococo variant of Asset Hub parachain runtime"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -274,3 +274,4 @@ metadata-hash = ["substrate-wasm-builder/metadata-hash"]
 # deployment. This will disable stuff that shouldn't be part of the on-chain wasm
 # to make it smaller, like logging for example.
 on-chain-release-build = ["metadata-hash"]
+

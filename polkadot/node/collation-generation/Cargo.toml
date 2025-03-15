@@ -1,12 +1,12 @@
 [package]
 name = "polkadot-node-collation-generation"
 version = "7.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 description = "Collator-side subsystem that handles incoming candidate submissions from the parachain."
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -32,3 +32,4 @@ polkadot-primitives = { workspace = true, features = ["test"] }
 polkadot-primitives-test-helpers = { workspace = true }
 rstest = { workspace = true }
 sp-keyring = { workspace = true, default-features = true }
+

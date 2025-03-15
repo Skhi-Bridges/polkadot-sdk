@@ -1,8 +1,8 @@
 [package]
 name = "westend-system-emulated-network"
 version = "0.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
 description = "Westend System emulated network"
 publish = false
@@ -20,3 +20,4 @@ emulated-integration-tests-common = { workspace = true }
 penpal-emulated-chain = { workspace = true }
 people-westend-emulated-chain = { workspace = true }
 westend-emulated-chain = { workspace = true }
+

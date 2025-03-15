@@ -1,11 +1,11 @@
 [package]
 name = "sc-client-api"
 version = "28.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Substrate client interfaces."
 documentation = "https://docs.rs/sc-client-api"
 readme = "README.md"
@@ -43,3 +43,4 @@ sp-trie = { workspace = true, default-features = true }
 [dev-dependencies]
 substrate-test-runtime = { workspace = true }
 thiserror = { workspace = true }
+

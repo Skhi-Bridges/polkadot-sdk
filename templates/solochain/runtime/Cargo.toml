@@ -3,10 +3,10 @@ name = "solochain-template-runtime"
 description = "A solochain runtime template built with Substrate, part of Polkadot Sdk."
 version = "0.0.0"
 license = "Unlicense"
-authors.workspace = true
-homepage.workspace = true
-repository.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
+edition = "2021"
 publish = false
 
 [package.metadata.docs.rs]
@@ -157,3 +157,4 @@ metadata-hash = ["substrate-wasm-builder/metadata-hash"]
 # A convenience feature for enabling things when doing a build
 # for an on-chain release.
 on-chain-release-build = ["metadata-hash", "sp-api/disable-logging"]
+

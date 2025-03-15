@@ -1,8 +1,8 @@
 [package]
 name = "xcm-executor-integration-tests"
 description = "Integration tests for the XCM Executor"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 version = "1.0.0"
 publish = false
@@ -34,3 +34,4 @@ xcm-executor = { workspace = true, default-features = true }
 [features]
 default = ["std"]
 std = ["frame-support/std", "frame-system/std", "pallet-sudo/std", "polkadot-runtime-parachains/std", "sp-runtime/std", "xcm/std"]
+

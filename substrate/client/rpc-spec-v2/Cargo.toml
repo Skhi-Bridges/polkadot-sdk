@@ -1,11 +1,11 @@
 [package]
 name = "sc-rpc-spec-v2"
 version = "0.34.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Substrate RPC interface v2."
 readme = "README.md"
 
@@ -62,3 +62,4 @@ substrate-test-runtime = { workspace = true }
 substrate-test-runtime-client = { workspace = true }
 substrate-test-runtime-transaction-pool = { workspace = true }
 tokio = { features = ["macros"], workspace = true, default-features = true }
+

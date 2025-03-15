@@ -1,12 +1,12 @@
 [package]
 name = "cumulus-pallet-xcmp-queue"
 version = "0.7.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 description = "Pallet to queue outbound and inbound XCMP messages."
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -100,3 +100,4 @@ try-runtime = [
 	"sp-runtime/try-runtime",
 ]
 bridging = ["bp-xcm-bridge-hub-router"]
+

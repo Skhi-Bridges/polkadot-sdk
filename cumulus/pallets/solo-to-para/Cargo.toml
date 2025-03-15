@@ -1,12 +1,12 @@
 [package]
 name = "cumulus-pallet-solo-to-para"
 version = "0.7.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 description = "Adds functionality to migrate from a Solo to a Parachain"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -46,3 +46,4 @@ try-runtime = [
 	"pallet-sudo/try-runtime",
 	"sp-runtime/try-runtime",
 ]
+

@@ -1,8 +1,8 @@
 [package]
 name = "rococo-westend-system-emulated-network"
 version = "0.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
 description = "Rococo<>Westend emulated bridged network"
 publish = false
@@ -20,3 +20,4 @@ emulated-integration-tests-common = { workspace = true }
 penpal-emulated-chain = { workspace = true }
 rococo-emulated-chain = { workspace = true }
 westend-emulated-chain = { workspace = true, default-features = true }
+

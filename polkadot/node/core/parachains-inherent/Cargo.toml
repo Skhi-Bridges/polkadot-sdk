@@ -1,12 +1,12 @@
 [package]
 name = "polkadot-node-core-parachains-inherent"
 version = "7.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 description = "Parachains inherent data provider for Polkadot node"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -22,3 +22,4 @@ polkadot-primitives = { workspace = true, default-features = true }
 sp-blockchain = { workspace = true, default-features = true }
 sp-inherents = { workspace = true, default-features = true }
 thiserror = { workspace = true }
+

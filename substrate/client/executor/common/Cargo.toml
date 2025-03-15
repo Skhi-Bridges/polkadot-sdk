@@ -1,11 +1,11 @@
 [package]
 name = "sc-executor-common"
 version = "0.29.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "A set of common definitions that are needed for defining execution engines."
 documentation = "https://docs.rs/sc-executor-common/"
 readme = "README.md"
@@ -26,3 +26,4 @@ wasm-instrument = { workspace = true, default-features = true }
 
 [features]
 default = []
+

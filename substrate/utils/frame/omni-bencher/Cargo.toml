@@ -2,9 +2,9 @@
 name = "frame-omni-bencher"
 version = "0.1.0"
 description = "Freestanding benchmark runner for any Polkadot runtime."
-authors.workspace = true
-edition.workspace = true
-repository.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 license.workspace = true
 readme = "README.md"
 
@@ -28,3 +28,4 @@ sc-chain-spec = { workspace = true }
 sp-genesis-builder = { workspace = true, default-features = true }
 sp-tracing = { workspace = true, default-features = true }
 tempfile = { workspace = true }
+

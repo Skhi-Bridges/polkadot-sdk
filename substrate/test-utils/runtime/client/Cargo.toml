@@ -1,11 +1,11 @@
 [package]
 name = "substrate-test-runtime-client"
 version = "2.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 publish = false
 
 [lints]
@@ -26,3 +26,4 @@ sp-core = { workspace = true, default-features = true }
 sp-runtime = { workspace = true, default-features = true }
 substrate-test-client = { workspace = true }
 substrate-test-runtime = { workspace = true }
+

@@ -1,11 +1,11 @@
 [package]
 name = "sp-staking"
 version = "26.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "A crate which contains primitives that are useful for implementation that uses staking approaches in general. Definitions related to sessions, slashing, etc go here."
 readme = "README.md"
 
@@ -34,3 +34,4 @@ std = [
 	"sp-runtime/std",
 ]
 runtime-benchmarks = ["sp-runtime/runtime-benchmarks"]
+

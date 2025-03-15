@@ -2,8 +2,8 @@
 name = "xcm-simulator-fuzzer"
 description = "Examples of xcm-simulator usage."
 version = "1.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 publish = false
 
@@ -65,3 +65,4 @@ runtime-benchmarks = [
 [[bin]]
 path = "src/fuzz.rs"
 name = "xcm-fuzzer"
+

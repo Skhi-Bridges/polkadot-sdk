@@ -1,11 +1,11 @@
 [package]
 name = "sp-database"
 version = "10.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Substrate database trait."
 documentation = "https://docs.rs/sp-database"
 readme = "README.md"
@@ -16,3 +16,4 @@ workspace = true
 [dependencies]
 kvdb = { workspace = true }
 parking_lot = { workspace = true, default-features = true }
+

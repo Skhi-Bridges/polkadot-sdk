@@ -1,12 +1,12 @@
 [package]
 name = "sp-trie"
 version = "29.0.0"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "Patricia trie stuff using a parity-scale-codec node format"
-repository.workspace = true
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 license = "Apache-2.0"
-edition.workspace = true
-homepage.workspace = true
+edition = "2021"
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
 documentation = "https://docs.rs/sp-trie"
 readme = "README.md"
 
@@ -64,3 +64,4 @@ std = [
 	"trie-db/std",
 	"trie-root/std",
 ]
+

@@ -1,12 +1,12 @@
 [package]
 name = "cumulus-test-relay-sproof-builder"
 version = "0.7.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
 description = "Mocked relay state proof builder for testing Cumulus."
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -35,3 +35,4 @@ std = [
 	"sp-state-machine/std",
 	"sp-trie/std",
 ]
+

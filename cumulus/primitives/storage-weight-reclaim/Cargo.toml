@@ -1,12 +1,12 @@
 [package]
 name = "cumulus-primitives-storage-weight-reclaim"
 version = "1.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 description = "Utilities to reclaim storage weight."
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -46,3 +46,4 @@ std = [
 	"sp-runtime/std",
 	"sp-trie/std",
 ]
+

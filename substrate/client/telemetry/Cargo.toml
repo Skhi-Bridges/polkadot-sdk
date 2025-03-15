@@ -1,12 +1,12 @@
 [package]
 name = "sc-telemetry"
 version = "15.0.0"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "Telemetry utils"
-edition.workspace = true
+edition = "2021"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 documentation = "https://docs.rs/sc-telemetry"
 readme = "README.md"
 
@@ -29,3 +29,4 @@ serde = { features = ["derive"], workspace = true, default-features = true }
 serde_json = { workspace = true, default-features = true }
 thiserror = { workspace = true }
 wasm-timer = { workspace = true }
+

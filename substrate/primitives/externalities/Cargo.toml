@@ -2,10 +2,10 @@
 name = "sp-externalities"
 version = "0.25.0"
 license = "Apache-2.0"
-authors.workspace = true
-edition.workspace = true
-homepage.workspace = true
-repository.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Substrate externalities abstraction"
 documentation = "https://docs.rs/sp-externalities"
 readme = "README.md"
@@ -24,3 +24,4 @@ sp-storage = { workspace = true }
 [features]
 default = ["std"]
 std = ["codec/std", "environmental/std", "sp-storage/std"]
+

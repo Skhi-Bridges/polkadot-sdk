@@ -3,8 +3,8 @@ name = "snowbridge-pallet-ethereum-client"
 description = "Snowbridge Ethereum Client Pallet"
 version = "0.2.0"
 authors = ["Snowfork <contact@snowfork.com>"]
-edition.workspace = true
-repository.workspace = true
+edition = "2021"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 license = "Apache-2.0"
 categories = ["cryptography::cryptocurrencies"]
 
@@ -83,3 +83,4 @@ try-runtime = [
 	"pallet-timestamp?/try-runtime",
 	"sp-runtime/try-runtime",
 ]
+

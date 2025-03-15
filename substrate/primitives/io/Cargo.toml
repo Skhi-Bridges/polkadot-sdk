@@ -1,11 +1,11 @@
 [package]
 name = "sp-io"
 version = "30.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "I/O for Substrate runtimes"
 documentation = "https://docs.rs/sp-io"
 readme = "README.md"
@@ -110,3 +110,4 @@ bls-experimental = ["sp-keystore/bls-experimental"]
 # It should not be used in production since the implementation and interface may still
 # be subject to significant changes.
 bandersnatch-experimental = ["sp-keystore/bandersnatch-experimental"]
+

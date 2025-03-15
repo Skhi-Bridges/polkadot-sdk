@@ -1,13 +1,13 @@
 [package]
 name = "xcm-procedural"
 description = "Procedural macros for XCM"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 version = "7.0.0"
 publish = true
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -28,3 +28,4 @@ trybuild = { features = ["diff"], workspace = true }
 xcm = { workspace = true, default-features = true, features = ["std"] }
 # For testing macros.
 frame-support = { workspace = true }
+

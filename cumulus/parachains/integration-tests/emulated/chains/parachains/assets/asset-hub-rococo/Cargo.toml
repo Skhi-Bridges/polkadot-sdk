@@ -1,8 +1,8 @@
 [package]
 name = "asset-hub-rococo-emulated-chain"
 version = "0.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
 description = "Asset Hub Rococo emulated chain"
 publish = false
@@ -31,3 +31,4 @@ xcm = { workspace = true }
 
 # Bridges
 bp-bridge-hub-rococo = { workspace = true }
+

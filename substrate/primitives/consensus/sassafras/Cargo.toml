@@ -1,11 +1,11 @@
 [package]
 name = "sp-consensus-sassafras"
 version = "0.3.4-dev"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "Primitives for Sassafras consensus"
-edition.workspace = true
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
 repository = "https://github.com/paritytech/polkadot-sdk/"
 documentation = "https://docs.rs/sp-consensus-sassafras"
 readme = "README.md"
@@ -49,3 +49,4 @@ serde = [
 	"sp-core/serde",
 	"sp-runtime/serde",
 ]
+

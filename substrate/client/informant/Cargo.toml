@@ -1,12 +1,12 @@
 [package]
 name = "sc-informant"
 version = "0.33.0"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "Substrate informant."
-edition.workspace = true
+edition = "2021"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 readme = "README.md"
 
 [lints]
@@ -26,3 +26,4 @@ sc-network-common = { workspace = true, default-features = true }
 sc-network-sync = { workspace = true, default-features = true }
 sp-blockchain = { workspace = true, default-features = true }
 sp-runtime = { workspace = true, default-features = true }
+

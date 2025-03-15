@@ -2,10 +2,11 @@
 name = "pallet-revive-fixtures-common"
 publish = false
 version = "1.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 description = "Common utilities for pallet-revive-fixtures."
 
 [dependencies]
 uapi = { package = 'pallet-revive-uapi', path = "../../../uapi", default-features = false }
+

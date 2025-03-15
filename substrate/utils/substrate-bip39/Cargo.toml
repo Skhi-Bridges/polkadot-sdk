@@ -4,9 +4,9 @@ version = "0.4.7"
 license = "Apache-2.0"
 description = "Converting BIP39 entropy to valid Substrate (sr25519) SecretKeys"
 documentation = "https://docs.rs/substrate-bip39"
-authors.workspace = true
-edition.workspace = true
-repository.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [dependencies]
 hmac = { workspace = true }
@@ -29,3 +29,4 @@ std = [
 	"zeroize/alloc",
 	"zeroize/std",
 ]
+

@@ -1,11 +1,11 @@
 [package]
 name = "sp-crypto-hashing"
 version = "0.1.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Hashing primitives."
 documentation = "https://docs.rs/sp-crypto-hashing"
 
@@ -44,3 +44,4 @@ std = [
 	"sha3/std",
 	"twox-hash/std",
 ]
+

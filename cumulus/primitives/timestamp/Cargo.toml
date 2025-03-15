@@ -1,12 +1,12 @@
 [package]
 name = "cumulus-primitives-timestamp"
 version = "0.7.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 description = "Provides timestamp related functionality for parachains."
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -26,3 +26,4 @@ std = [
 	"sp-inherents/std",
 	"sp-timestamp/std",
 ]
+

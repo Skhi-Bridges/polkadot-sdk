@@ -1,12 +1,12 @@
 [package]
 name = "polkadot-parachain-primitives"
 description = "Types and utilities for creating and working with parachains"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 version = "6.0.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -41,3 +41,4 @@ std = [
 	"sp-weights/std",
 ]
 runtime-benchmarks = ["sp-runtime/runtime-benchmarks"]
+

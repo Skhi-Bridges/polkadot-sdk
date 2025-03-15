@@ -3,11 +3,11 @@ name = "snowbridge-runtime-test-common"
 description = "Snowbridge Runtime Tests"
 version = "0.2.0"
 authors = ["Snowfork <contact@snowfork.com>"]
-edition.workspace = true
+edition = "2021"
 license = "Apache-2.0"
 categories = ["cryptography::cryptocurrencies"]
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -95,3 +95,4 @@ runtime-benchmarks = [
 	"xcm/runtime-benchmarks",
 ]
 fast-runtime = []
+

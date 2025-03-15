@@ -1,12 +1,12 @@
 [package]
 name = "staging-xcm-builder"
 description = "Tools & types for building with XCM and its executor."
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 version = "7.0.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -77,3 +77,4 @@ std = [
 	"xcm-executor/std",
 	"xcm/std",
 ]
+

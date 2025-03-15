@@ -1,8 +1,8 @@
 [package]
 name = "cumulus-test-runtime"
 version = "0.1.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 publish = false
 
 [lints]
@@ -96,3 +96,4 @@ increment-spec-version = []
 elastic-scaling = []
 elastic-scaling-500ms = []
 experimental-ump-signals = ["cumulus-pallet-parachain-system/experimental-ump-signals"]
+

@@ -1,12 +1,12 @@
 [package]
 name = "tracing-gum"
 version = "7.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 description = "Stick logs together with the TraceID as provided by tempo"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -16,3 +16,4 @@ coarsetime = { workspace = true }
 gum-proc-macro = { workspace = true, default-features = true }
 polkadot-primitives = { features = ["std"], workspace = true, default-features = true }
 tracing = { workspace = true, default-features = true }
+

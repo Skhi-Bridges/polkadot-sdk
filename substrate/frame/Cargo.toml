@@ -2,10 +2,10 @@
 name = "polkadot-sdk-frame"
 version = "0.1.0"
 authors = ["Parity Technologies <admin@parity.io>"]
-edition.workspace = true
+edition = "2021"
 license = "Apache-2.0"
 homepage = "https://paritytech.github.io"
-repository.workspace = true
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Experimental: The single package to get you started with building frame pallets and runtimes"
 
 [lints]
@@ -127,3 +127,4 @@ try-runtime = [
 	"pallet-examples/try-runtime",
 	"sp-runtime/try-runtime",
 ]
+

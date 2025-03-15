@@ -1,11 +1,11 @@
 [package]
 name = "cumulus-pov-validator"
 version = "0.1.0"
-authors.workspace = true
-edition.workspace = true
-repository.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 license.workspace = true
-homepage.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "A tool for validating PoVs locally"
 
 [dependencies]
@@ -24,3 +24,4 @@ tracing.workspace = true
 
 [lints]
 workspace = true
+

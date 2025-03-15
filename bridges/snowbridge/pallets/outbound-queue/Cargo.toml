@@ -3,8 +3,8 @@ name = "snowbridge-pallet-outbound-queue"
 description = "Snowbridge Outbound Queue Pallet"
 version = "0.2.0"
 authors = ["Snowfork <contact@snowfork.com>"]
-edition.workspace = true
-repository.workspace = true
+edition = "2021"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 license = "Apache-2.0"
 categories = ["cryptography::cryptocurrencies"]
 
@@ -73,3 +73,4 @@ try-runtime = [
 	"pallet-message-queue/try-runtime",
 	"sp-runtime/try-runtime",
 ]
+

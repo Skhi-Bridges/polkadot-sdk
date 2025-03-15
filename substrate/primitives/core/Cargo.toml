@@ -1,11 +1,11 @@
 [package]
 name = "sp-core"
 version = "28.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Shareable Substrate types."
 documentation = "https://docs.rs/sp-core"
 
@@ -166,3 +166,4 @@ bls-experimental = ["w3f-bls"]
 # It should not be used in production since the implementation and interface may still
 # be subject to significant changes.
 bandersnatch-experimental = ["bandersnatch_vrfs"]
+

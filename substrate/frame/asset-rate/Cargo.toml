@@ -2,11 +2,11 @@
 name = "pallet-asset-rate"
 version = "7.0.0"
 description = "Whitelist non-native assets for treasury spending and provide conversion to native balance"
-authors.workspace = true
-homepage.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+edition = "2021"
 license = "Apache-2.0"
-repository.workspace = true
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -57,3 +57,4 @@ try-runtime = [
 	"pallet-balances/try-runtime",
 	"sp-runtime/try-runtime",
 ]
+

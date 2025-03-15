@@ -4,8 +4,8 @@ description = "Test parachain which executes forever"
 build = "build.rs"
 publish = false
 version = "1.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 
 [lints]
@@ -20,3 +20,4 @@ substrate-wasm-builder = { workspace = true, default-features = true }
 [features]
 default = ["std"]
 std = []
+

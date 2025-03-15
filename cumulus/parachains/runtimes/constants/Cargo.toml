@@ -1,12 +1,12 @@
 [package]
 name = "testnet-parachains-constants"
 version = "1.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 description = "Common constants for Testnet Parachains runtimes"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -45,3 +45,4 @@ std = [
 # Test runtimes specific features.
 rococo = ["rococo-runtime-constants"]
 westend = ["westend-runtime-constants"]
+

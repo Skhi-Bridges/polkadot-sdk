@@ -1,13 +1,13 @@
 [package]
 name = "sc-consensus-slots"
 version = "0.33.0"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "Generic slots-based utilities for consensus"
-edition.workspace = true
+edition = "2021"
 build = "build.rs"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 readme = "README.md"
 
 [lints]
@@ -36,3 +36,4 @@ sp-state-machine = { workspace = true, default-features = true }
 
 [dev-dependencies]
 substrate-test-runtime-client = { workspace = true }
+

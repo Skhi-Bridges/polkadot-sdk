@@ -1,11 +1,11 @@
 [package]
 name = "pallet-contracts-uapi"
 version = "5.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Exposes all the host functions that a contract can import."
 
 [lints]
@@ -26,3 +26,4 @@ targets = ["wasm32-unknown-unknown"]
 [features]
 default = ["scale"]
 scale = ["dep:codec", "scale-info"]
+

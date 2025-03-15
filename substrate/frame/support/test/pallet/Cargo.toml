@@ -1,12 +1,12 @@
 [package]
 name = "frame-support-test-pallet"
 version = "4.0.0-dev"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
 publish = false
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -32,3 +32,4 @@ std = [
 	"serde/std",
 	"sp-runtime/std",
 ]
+

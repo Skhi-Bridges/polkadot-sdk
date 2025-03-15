@@ -3,10 +3,10 @@ name = "parachain-template"
 description = "A parachain-template helper crate to keep documentation in sync with the template's components."
 version = "0.0.0"
 license = "Unlicense"
-authors.workspace = true
-homepage.workspace = true
-repository.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
+edition = "2021"
 publish = false
 
 [dependencies]
@@ -14,3 +14,4 @@ docify = "0.2.9"
 
 [features]
 generate-readme = []
+

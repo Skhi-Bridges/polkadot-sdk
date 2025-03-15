@@ -2,11 +2,11 @@
 name = "polkadot-approval-distribution"
 version = "7.0.0"
 description = "Polkadot Approval Distribution subsystem for the distribution of assignments and approvals for approval checks on candidates over the network."
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -42,3 +42,4 @@ log = { workspace = true, default-features = true }
 rand_chacha = { workspace = true, default-features = true }
 rand_core = { workspace = true }
 sp-tracing = { workspace = true }
+

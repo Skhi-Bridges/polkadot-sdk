@@ -1,10 +1,10 @@
 [package]
 name = "pallet-example-tasks"
 version = "1.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
-repository.workspace = true
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Pallet to demonstrate the usage of Tasks to recognize and execute service work"
 publish = false
 
@@ -53,3 +53,4 @@ try-runtime = [
 	"sp-runtime/try-runtime",
 ]
 experimental = ["frame-support/experimental", "frame-system/experimental"]
+

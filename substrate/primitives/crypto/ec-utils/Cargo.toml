@@ -1,12 +1,12 @@
 [package]
 name = "sp-crypto-ec-utils"
 version = "0.10.0"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "Host functions for common Arkworks elliptic curve operations"
-edition.workspace = true
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -64,3 +64,4 @@ all-curves = [
 	"ed-on-bls12-377",
 	"ed-on-bls12-381-bandersnatch",
 ]
+

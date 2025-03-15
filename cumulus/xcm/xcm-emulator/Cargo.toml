@@ -2,11 +2,11 @@
 name = "xcm-emulator"
 description = "Test kit to emulate XCM program execution."
 version = "0.5.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -44,3 +44,4 @@ polkadot-primitives = { workspace = true, default-features = true }
 polkadot-runtime-parachains = { workspace = true, default-features = true }
 xcm = { workspace = true, default-features = true }
 xcm-executor = { workspace = true, default-features = true }
+

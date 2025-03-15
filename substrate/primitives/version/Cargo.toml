@@ -1,11 +1,11 @@
 [package]
 name = "sp-version"
 version = "29.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Version module for the Substrate runtime; Provides a function that returns the runtime version."
 documentation = "https://docs.rs/sp-version"
 readme = "README.md"
@@ -43,3 +43,4 @@ std = [
 
 # Serde support without relying on std features.
 serde = ["dep:serde", "impl-serde", "sp-runtime/serde"]
+

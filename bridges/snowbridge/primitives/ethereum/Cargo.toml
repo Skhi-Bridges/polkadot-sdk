@@ -3,8 +3,8 @@ name = "snowbridge-ethereum"
 description = "Snowbridge Ethereum"
 version = "0.3.0"
 authors = ["Snowfork <contact@snowfork.com>"]
-edition.workspace = true
-repository.workspace = true
+edition = "2021"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 license = "Apache-2.0"
 categories = ["cryptography::cryptocurrencies"]
 
@@ -49,3 +49,4 @@ std = [
 	"sp-runtime/std",
 	"sp-std/std",
 ]
+

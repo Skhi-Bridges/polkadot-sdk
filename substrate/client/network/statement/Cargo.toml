@@ -3,10 +3,10 @@ description = "Substrate statement protocol"
 name = "sc-network-statement"
 version = "0.16.0"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-authors.workspace = true
-edition.workspace = true
-homepage.workspace = true
-repository.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 documentation = "https://docs.rs/sc-network-statement"
 
 [lints]
@@ -29,3 +29,4 @@ sc-network-types = { workspace = true, default-features = true }
 sp-consensus = { workspace = true, default-features = true }
 sp-runtime = { workspace = true, default-features = true }
 sp-statement-store = { workspace = true, default-features = true }
+

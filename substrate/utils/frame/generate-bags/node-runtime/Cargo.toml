@@ -1,11 +1,11 @@
 [package]
 name = "node-runtime-generate-bags"
 version = "3.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Bag threshold generation script for pallet-bag-list and kitchensink-runtime."
 publish = false
 
@@ -18,3 +18,4 @@ kitchensink-runtime = { workspace = true }
 
 # third-party
 clap = { features = ["derive"], workspace = true }
+

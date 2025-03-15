@@ -1,11 +1,11 @@
 [package]
 name = "sc-block-builder"
 version = "0.33.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Substrate block builder"
 readme = "README.md"
 
@@ -30,3 +30,4 @@ sp-trie = { workspace = true, default-features = true }
 [dev-dependencies]
 sp-state-machine = { workspace = true, default-features = true }
 substrate-test-runtime-client = { workspace = true }
+

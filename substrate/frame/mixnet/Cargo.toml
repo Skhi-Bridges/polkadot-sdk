@@ -4,8 +4,8 @@ name = "pallet-mixnet"
 version = "0.4.0"
 license = "Apache-2.0"
 authors = ["Parity Technologies <admin@parity.io>"]
-edition.workspace = true
-homepage.workspace = true
+edition = "2021"
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
 repository = "https://github.com/paritytech/substrate/"
 readme = "README.md"
 
@@ -38,3 +38,4 @@ std = [
 try-runtime = [
 	"frame/try-runtime",
 ]
+

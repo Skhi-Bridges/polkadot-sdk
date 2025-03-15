@@ -1,11 +1,11 @@
 [package]
 name = "frame-support-procedural"
 version = "23.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Proc macro of Support code for the runtime."
 
 [lints]
@@ -72,3 +72,4 @@ tuples-128 = []
 
 [[example]]
 name = "proc_main"
+

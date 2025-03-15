@@ -1,12 +1,12 @@
 [package]
 name = "sp-consensus-slots"
 version = "0.32.0"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "Primitives for slots-based consensus"
-edition.workspace = true
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 readme = "README.md"
 
 [lints]
@@ -27,3 +27,4 @@ std = ["codec/std", "scale-info/std", "serde/std", "sp-timestamp/std"]
 
 # Serde support without relying on std features.
 serde = ["dep:serde", "scale-info/serde"]
+

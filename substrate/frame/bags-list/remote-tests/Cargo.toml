@@ -1,11 +1,11 @@
 [package]
 name = "pallet-bags-list-remote-tests"
 version = "4.0.0-dev"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "FRAME pallet bags list remote test"
 publish = false
 
@@ -34,3 +34,4 @@ remote-externalities = { workspace = true, default-features = true }
 
 # others
 log = { workspace = true, default-features = true }
+

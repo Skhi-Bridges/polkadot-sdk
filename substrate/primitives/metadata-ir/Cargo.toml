@@ -1,11 +1,11 @@
 [package]
 name = "sp-metadata-ir"
 version = "0.6.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Intermediate representation of the runtime metadata."
 documentation = "https://docs.rs/sp-metadata-ir"
 
@@ -23,3 +23,4 @@ scale-info = { features = ["derive"], workspace = true }
 [features]
 default = ["std"]
 std = ["codec/std", "frame-metadata/std", "scale-info/std"]
+

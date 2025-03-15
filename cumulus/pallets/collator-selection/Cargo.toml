@@ -1,12 +1,12 @@
 [package]
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "Simple pallet to select collators for a parachain."
-edition.workspace = true
-homepage.workspace = true
+edition = "2021"
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
 license = "Apache-2.0"
 name = "pallet-collator-selection"
 readme = "README.md"
-repository.workspace = true
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 version = "9.0.0"
 
 [lints]
@@ -76,3 +76,4 @@ try-runtime = [
 	"pallet-timestamp/try-runtime",
 	"sp-runtime/try-runtime",
 ]
+

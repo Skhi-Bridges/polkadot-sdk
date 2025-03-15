@@ -3,8 +3,8 @@ name = "snowbridge-beacon-primitives"
 description = "Snowbridge Beacon Primitives"
 version = "0.2.0"
 authors = ["Snowfork <contact@snowfork.com>"]
-edition.workspace = true
-repository.workspace = true
+edition = "2021"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 license = "Apache-2.0"
 categories = ["cryptography::cryptocurrencies"]
 
@@ -52,3 +52,4 @@ std = [
 	"sp-std/std",
 	"ssz_rs/std",
 ]
+

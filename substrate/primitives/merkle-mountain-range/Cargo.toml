@@ -1,11 +1,11 @@
 [package]
 name = "sp-mmr-primitives"
 version = "26.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Merkle Mountain Range primitives."
 
 [lints]
@@ -46,3 +46,4 @@ std = [
 
 # Serde support without relying on std features.
 serde = ["dep:serde", "scale-info/serde", "sp-core/serde", "sp-runtime/serde"]
+

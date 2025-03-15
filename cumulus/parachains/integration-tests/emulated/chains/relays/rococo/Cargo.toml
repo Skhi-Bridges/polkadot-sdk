@@ -1,8 +1,8 @@
 [package]
 name = "rococo-emulated-chain"
 version = "0.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
 description = "Rococo emulated chain"
 publish = false
@@ -28,3 +28,4 @@ rococo-runtime-constants = { workspace = true }
 # Cumulus
 emulated-integration-tests-common = { workspace = true }
 parachains-common = { workspace = true, default-features = true }
+

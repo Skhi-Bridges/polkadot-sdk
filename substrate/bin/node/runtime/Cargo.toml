@@ -1,13 +1,13 @@
 [package]
 name = "kitchensink-runtime"
 version = "3.0.0-dev"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "Substrate node kitchensink runtime."
-edition.workspace = true
+edition = "2021"
 build = "build.rs"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 publish = false
 
 [lints]
@@ -74,3 +74,4 @@ experimental = [
 	"pallet-example-tasks/experimental",
 ]
 metadata-hash = ["substrate-wasm-builder/metadata-hash"]
+

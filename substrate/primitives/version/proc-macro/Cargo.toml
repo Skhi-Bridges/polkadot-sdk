@@ -1,11 +1,11 @@
 [package]
 name = "sp-version-proc-macro"
 version = "13.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Macro for defining a runtime version."
 documentation = "https://docs.rs/sp-api-proc-macro"
 
@@ -27,3 +27,4 @@ syn = { features = ["extra-traits", "fold", "full", "visit"], workspace = true }
 
 [dev-dependencies]
 sp-version = { workspace = true, default-features = true }
+

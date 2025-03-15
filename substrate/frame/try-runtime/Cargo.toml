@@ -1,11 +1,11 @@
 [package]
 name = "frame-try-runtime"
 version = "0.34.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Supporting types for try-runtime, testing and dry-running commands."
 
 [lints]
@@ -29,3 +29,4 @@ std = [
 	"sp-runtime/std",
 ]
 try-runtime = ["frame-support/try-runtime", "sp-runtime/try-runtime"]
+

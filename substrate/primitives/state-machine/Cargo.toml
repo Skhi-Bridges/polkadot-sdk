@@ -1,12 +1,12 @@
 [package]
 name = "sp-state-machine"
 version = "0.35.0"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "Substrate State Machine"
-edition.workspace = true
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 documentation = "https://docs.rs/sp-state-machine"
 readme = "README.md"
 
@@ -58,3 +58,4 @@ std = [
 	"tracing",
 	"trie-db/std",
 ]
+

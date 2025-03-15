@@ -1,14 +1,14 @@
 [package]
 name = "staging-node-cli"
 version = "3.0.0-dev"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "Generic Substrate node implementation in Rust."
 build = "build.rs"
-edition.workspace = true
+edition = "2021"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
 default-run = "substrate-node"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 publish = false
 
 [lints]
@@ -194,3 +194,4 @@ harness = false
 [[bench]]
 name = "executor"
 harness = false
+

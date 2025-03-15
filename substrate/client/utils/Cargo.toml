@@ -1,11 +1,11 @@
 [package]
 name = "sc-utils"
 version = "14.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "I/O for Substrate runtimes"
 readme = "README.md"
 
@@ -27,3 +27,4 @@ metered = []
 
 [dev-dependencies]
 tokio-test = { workspace = true }
+

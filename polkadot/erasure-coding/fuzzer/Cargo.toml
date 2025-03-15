@@ -1,8 +1,8 @@
 [package]
 name = "erasure_coding_fuzzer"
 version = "1.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 publish = false
 
@@ -22,3 +22,4 @@ path = "src/reconstruct.rs"
 [[bin]]
 name = "round_trip"
 path = "src/round_trip.rs"
+

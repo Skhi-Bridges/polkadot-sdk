@@ -1,11 +1,11 @@
 [package]
 name = "pallet-parameters"
 description = "Pallet to store and configure parameters."
-repository.workspace = true
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 license = "Apache-2.0"
 version = "0.1.0"
 authors = ["Acala Developers", "Parity Technologies <admin@parity.io>"]
-edition.workspace = true
+edition = "2021"
 
 [dependencies]
 codec = { features = ["max-encoded-len"], workspace = true }
@@ -53,3 +53,4 @@ try-runtime = [
 	"pallet-example-basic/try-runtime",
 	"sp-runtime/try-runtime",
 ]
+

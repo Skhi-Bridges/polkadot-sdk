@@ -1,11 +1,11 @@
 [package]
 name = "pallet-revive-eth-rpc"
 version = "0.1.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "An Ethereum JSON-RPC server for pallet-revive."
 default-run = "eth-rpc"
 
@@ -77,3 +77,4 @@ env_logger = { workspace = true }
 static_init = { workspace = true }
 substrate-cli-test-utils = { workspace = true }
 subxt-signer = { workspace = true, features = ["unstable-eth"] }
+

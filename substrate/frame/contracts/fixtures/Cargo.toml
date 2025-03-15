@@ -2,8 +2,8 @@
 name = "pallet-contracts-fixtures"
 publish = false
 version = "1.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 description = "Fixtures for testing contracts pallet."
 
@@ -21,3 +21,4 @@ parity-wasm = { workspace = true }
 tempfile = { workspace = true }
 toml = { workspace = true }
 twox-hash = { workspace = true, default-features = true }
+

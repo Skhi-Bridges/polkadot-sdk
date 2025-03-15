@@ -1,11 +1,11 @@
 [package]
 name = "frame-election-provider-solution-type"
 version = "13.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "NPoS Solution Type"
 
 [lints]
@@ -33,3 +33,4 @@ sp-arithmetic = { workspace = true, default-features = true }
 frame-election-provider-support = { workspace = true, default-features = true, features = ["std"] }
 frame-support = { workspace = true, default-features = true }
 trybuild = { workspace = true }
+

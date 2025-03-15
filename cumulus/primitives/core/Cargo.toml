@@ -1,12 +1,12 @@
 [package]
 name = "cumulus-primitives-core"
 version = "0.7.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
 description = "Cumulus related core primitive types and traits"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -45,3 +45,4 @@ runtime-benchmarks = [
 	"sp-runtime/runtime-benchmarks",
 	"xcm/runtime-benchmarks",
 ]
+

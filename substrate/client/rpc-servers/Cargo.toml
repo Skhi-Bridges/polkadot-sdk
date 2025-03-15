@@ -1,11 +1,11 @@
 [package]
 name = "sc-rpc-server"
 version = "11.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Substrate RPC servers."
 readme = "README.md"
 
@@ -33,3 +33,4 @@ serde_json = { workspace = true, default-features = true }
 tokio = { features = ["parking_lot"], workspace = true, default-features = true }
 tower = { workspace = true, features = ["util"] }
 tower-http = { workspace = true, features = ["cors"] }
+

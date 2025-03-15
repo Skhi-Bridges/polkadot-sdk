@@ -16,12 +16,12 @@ description = "Implementation of a `https://polkadot.network` node in Rust based
 license = "GPL-3.0-only"
 rust-version = "1.64.0"
 readme = "README.md"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 version = "6.0.0"
 default-run = "polkadot"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -115,3 +115,4 @@ conf-files = ["/etc/default/polkadot"]
 
 [package.metadata.spellcheck]
 config = "./scripts/ci/gitlab/spellcheck.toml"
+

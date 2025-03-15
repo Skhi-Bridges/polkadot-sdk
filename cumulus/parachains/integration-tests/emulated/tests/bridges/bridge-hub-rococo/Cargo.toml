@@ -1,8 +1,8 @@
 [package]
 name = "bridge-hub-rococo-integration-tests"
 version = "1.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
 description = "Bridge Hub Rococo runtime integration tests with xcm-emulator"
 publish = false
@@ -48,3 +48,4 @@ snowbridge-pallet-inbound-queue-fixtures = { workspace = true, default-features 
 snowbridge-pallet-outbound-queue = { workspace = true }
 snowbridge-pallet-system = { workspace = true }
 snowbridge-router-primitives = { workspace = true }
+

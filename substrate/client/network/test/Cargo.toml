@@ -3,11 +3,11 @@ description = "Integration tests for Substrate network protocol"
 name = "sc-network-test"
 version = "0.8.0"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 publish = false
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -41,3 +41,4 @@ sp-tracing = { workspace = true, default-features = true }
 substrate-test-runtime = { workspace = true }
 substrate-test-runtime-client = { workspace = true }
 tokio = { workspace = true, default-features = true }
+

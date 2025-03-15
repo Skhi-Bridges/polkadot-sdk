@@ -1,11 +1,11 @@
 [package]
 name = "sp-consensus"
 version = "0.32.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "Common utilities for building and using consensus engines in substrate."
 documentation = "https://docs.rs/sp-consensus/"
 readme = "README.md"
@@ -32,3 +32,4 @@ sp-test-primitives = { workspace = true }
 
 [features]
 default = []
+

@@ -2,11 +2,11 @@
 name = "pallet-collective-content"
 version = "0.6.0"
 authors = ["Parity Technologies <admin@parity.io>"]
-edition.workspace = true
+edition = "2021"
 description = "Managed content"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -50,3 +50,4 @@ std = [
 	"sp-io/std",
 	"sp-runtime/std",
 ]
+

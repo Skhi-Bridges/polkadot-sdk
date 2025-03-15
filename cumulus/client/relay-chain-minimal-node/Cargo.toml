@@ -1,12 +1,12 @@
 [package]
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 name = "cumulus-relay-chain-minimal-node"
 version = "0.7.0"
-edition.workspace = true
+edition = "2021"
 description = "Minimal node implementation to be used in tandem with RPC or light-client mode."
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -47,3 +47,4 @@ array-bytes = { workspace = true, default-features = true }
 async-trait = { workspace = true }
 futures = { workspace = true }
 tracing = { workspace = true, default-features = true }
+

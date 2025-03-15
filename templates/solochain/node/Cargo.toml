@@ -3,10 +3,10 @@ name = "solochain-template-node"
 description = "A solochain node template built with Substrate, part of Polkadot Sdk."
 version = "0.0.0"
 license = "Unlicense"
-authors.workspace = true
-homepage.workspace = true
-repository.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
+edition = "2021"
 publish = false
 
 build = "build.rs"
@@ -85,3 +85,4 @@ try-runtime = [
 	"solochain-template-runtime/try-runtime",
 	"sp-runtime/try-runtime",
 ]
+

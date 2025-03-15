@@ -1,12 +1,12 @@
 [package]
 name = "polkadot-voter-bags"
 version = "7.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 description = "CLI to generate voter bags for Polkadot runtimes"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -18,3 +18,4 @@ generate-bags = { workspace = true, default-features = true }
 sp-io = { workspace = true, default-features = true }
 
 westend-runtime = { workspace = true }
+

@@ -4,8 +4,8 @@ description = "Test parachain for zombienet integration tests"
 build = "build.rs"
 publish = false
 version = "1.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 
 [lints]
@@ -32,3 +32,4 @@ std = [
 	"polkadot-parachain-primitives/std",
 	"sp-io/std",
 ]
+

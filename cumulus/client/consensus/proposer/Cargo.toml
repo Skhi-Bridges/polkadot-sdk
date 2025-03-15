@@ -2,11 +2,11 @@
 name = "cumulus-client-consensus-proposer"
 description = "A Substrate `Proposer` for building parachain blocks"
 version = "0.7.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -24,3 +24,4 @@ sp-state-machine = { workspace = true, default-features = true }
 
 # Cumulus
 cumulus-primitives-parachain-inherent = { workspace = true, default-features = true }
+

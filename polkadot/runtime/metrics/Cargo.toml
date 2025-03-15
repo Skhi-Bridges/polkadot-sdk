@@ -1,12 +1,12 @@
 [package]
 name = "polkadot-runtime-metrics"
 version = "7.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
 description = "Runtime metric interface for the Polkadot node"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -29,3 +29,4 @@ std = [
 	"sp-tracing/std",
 ]
 runtime-metrics = ["frame-benchmarking", "sp-tracing/with-tracing"]
+

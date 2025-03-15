@@ -1,13 +1,13 @@
 [package]
 name = "sc-runtime-test"
 version = "2.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 build = "build.rs"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
 publish = false
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -33,3 +33,4 @@ std = [
 	"sp-runtime/std",
 	"substrate-wasm-builder",
 ]
+

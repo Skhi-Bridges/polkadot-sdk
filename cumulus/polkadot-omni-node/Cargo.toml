@@ -1,13 +1,13 @@
 [package]
 name = "polkadot-omni-node"
 version = "0.1.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 build = "build.rs"
 description = "Generic binary that can run a parachain node with u32 block number and Aura consensus"
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -29,3 +29,4 @@ runtime-benchmarks = [
 try-runtime = [
 	"polkadot-omni-node-lib/try-runtime",
 ]
+

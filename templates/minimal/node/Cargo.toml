@@ -3,10 +3,10 @@ name = "minimal-template-node"
 description = "A minimal Substrate-based Substrate node, ready for hacking."
 version = "0.0.0"
 license = "Unlicense"
-authors.workspace = true
-homepage.workspace = true
-repository.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
+edition = "2021"
 publish = false
 build = "build.rs"
 
@@ -33,3 +33,4 @@ std = [
 	"minimal-template-runtime/std",
 	"polkadot-sdk/std",
 ]
+

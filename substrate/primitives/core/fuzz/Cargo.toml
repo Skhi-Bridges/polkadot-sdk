@@ -2,7 +2,7 @@
 name = "sp-core-fuzz"
 version = "0.0.0"
 publish = false
-edition.workspace = true
+edition = "2021"
 
 [lints]
 workspace = true
@@ -21,3 +21,4 @@ name = "fuzz_address_uri"
 path = "fuzz_targets/fuzz_address_uri.rs"
 test = false
 doc = false
+

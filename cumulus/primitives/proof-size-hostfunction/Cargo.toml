@@ -1,12 +1,12 @@
 [package]
 name = "cumulus-primitives-proof-size-hostfunction"
 version = "0.2.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 description = "Hostfunction exposing storage proof size to the runtime."
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -24,3 +24,4 @@ sp-state-machine = { workspace = true, default-features = true }
 [features]
 default = ["std"]
 std = ["sp-externalities/std", "sp-runtime-interface/std", "sp-trie/std"]
+

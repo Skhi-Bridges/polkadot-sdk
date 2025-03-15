@@ -2,11 +2,11 @@
 name = "polkadot-core-primitives"
 version = "7.0.0"
 description = "Core Polkadot types used by Relay Chains and parachains."
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license.workspace = true
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 
 [lints]
 workspace = true
@@ -25,3 +25,4 @@ std = [
 	"sp-core/std",
 	"sp-runtime/std",
 ]
+

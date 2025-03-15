@@ -1,12 +1,12 @@
 [package]
 name = "sc-consensus-babe"
 version = "0.34.0"
-authors.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
 description = "BABE consensus algorithm for substrate"
-edition.workspace = true
+edition = "2021"
 license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 documentation = "https://docs.rs/sc-consensus-babe"
 readme = "README.md"
 
@@ -55,3 +55,4 @@ sp-timestamp = { workspace = true, default-features = true }
 sp-tracing = { workspace = true, default-features = true }
 substrate-test-runtime-client = { workspace = true }
 tokio = { workspace = true, default-features = true }
+

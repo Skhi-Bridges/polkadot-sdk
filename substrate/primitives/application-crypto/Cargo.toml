@@ -1,12 +1,12 @@
 [package]
 name = "sp-application-crypto"
 version = "30.0.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 description = "Provides facilities for generating application specific crypto wrapper types."
 license = "Apache-2.0"
-homepage.workspace = true
-repository.workspace = true
+homepage = "https://github.com/Skhi-Bridges/polkadot-sdk"
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 documentation = "https://docs.rs/sp-application-crypto"
 readme = "README.md"
 
@@ -61,3 +61,4 @@ bandersnatch-experimental = [
 	"sp-core/bandersnatch-experimental",
 	"sp-io/bandersnatch-experimental",
 ]
+

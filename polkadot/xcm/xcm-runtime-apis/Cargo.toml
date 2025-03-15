@@ -1,10 +1,10 @@
 [package]
 name = "xcm-runtime-apis"
 version = "0.1.0"
-authors.workspace = true
-edition.workspace = true
+authors = ["Matrix-Magiq Team", "Parity Technologies <admin@parity.io>"]
+edition = "2021"
 license = "Apache-2.0"
-repository.workspace = true
+repository = "https://github.com/Skhi-Bridges/polkadot-sdk"
 description = "XCM runtime APIs"
 
 [package.metadata.docs.rs]
@@ -62,3 +62,4 @@ runtime-benchmarks = [
 	"xcm-executor/runtime-benchmarks",
 	"xcm/runtime-benchmarks",
 ]
+
