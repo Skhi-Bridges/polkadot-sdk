@@ -1,0 +1,41 @@
+[package]
+name = "cumulus-primitives-quantum-channel"
+version = "0.1.0"
+authors = ["Matrix-Magiq Team"]
+edition = "2021"
+description = "Quantum-secure channel primitives for Cumulus parachains"
+
+[dependencies]
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
+scale-info = { version = "2.9.0", default-features = false, features = ["derive"] }
+serde = { version = "1.0.188", optional = true, features = ["derive"] }
+
+# Substrate dependencies
+sp-std = { path = "../../../substrate/primitives/std", default-features = false }
+sp-runtime = { path = "../../../substrate/primitives/runtime", default-features = false }
+sp-core = { path = "../../../substrate/primitives/core", default-features = false }
+
+# Quantum cryptography dependencies
+blake3 = { version = "1.3.3", default-features = false }
+pqc_kyber = { version = "0.7.1", default-features = false }
+num-complex = { version = "0.4.3", default-features = false }
+ndarray = { version = "0.15.6", default-features = false }
+rand_chacha = { version = "0.3.1", default-features = false }
+
+# Cumulus dependencies
+cumulus-primitives-core = { path = "../core", default-features = false }
+
+[features]
+default = ["std"]
+std = [
+    "codec/std",
+    "scale-info/std",
+    "serde",
+    "sp-std/std",
+    "sp-runtime/std",
+    "sp-core/std",
+    "blake3/std",
+    "cumulus-primitives-core/std",
+    "num-complex/std",
+    "ndarray/std",
+]
