@@ -1,0 +1,17 @@
+﻿{
+    "security_config":  {
+                            "challenge_timeout":  100,
+                            "entropy_protocol":  "ThriceNestedStereo",
+                            "required_validators":  3,
+                            "use_quantum_security":  true
+                        },
+    "fee_model":  "None",
+    "contract_address":  "",
+    "platform":  "Polkadot",
+    "created_timestamp":  "2025-03-15 21:37:03",
+    "max_message_size":  65536,
+    "active":  true,
+    "required_confirmations":  2,
+    "endpoint":  "wss://rpc.polkadot.io",
+    "fee_value":  "0"
+}

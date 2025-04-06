@@ -18,7 +18,7 @@ targets = ["x86_64-unknown-linux-gnu"]
 [dependencies]
 array-bytes = { workspace = true }
 binary-merkle-tree.workspace = true
-bitflags = { workspace = true }
+bitflags = "2.4.1"
 codec = { features = [
 	"derive",
 	"max-encoded-len",
@@ -127,4 +127,3 @@ full-metadata-docs = ["scale-info/docs"]
 # pallets in a runtime grows. Does increase the compile time!
 tuples-96 = ["frame-support-procedural/tuples-96"]
 tuples-128 = ["frame-support-procedural/tuples-128"]
-

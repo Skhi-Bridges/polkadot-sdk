@@ -1,0 +1,59 @@
+[package]
+name = "pallet-rpc-q999"
+version = "0.1.0"
+authors = ["Matrix-Magiq Team"]
+edition = "2021"
+description = "RPC-Q999 token standard with quantum-secure Actorx profiles, zones, and wallets"
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
+
+[dependencies]
+codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
+scale-info = { version = "2.9.0", default-features = false, features = ["derive"] }
+log = { version = "0.4.17", default-features = false }
+
+# Substrate dependencies
+frame-benchmarking = { version = "4.0.0-dev", default-features = false, optional = true, path = "../../../substrate/frame/benchmarking" }
+frame-support = { version = "4.0.0-dev", default-features = false, path = "../../../substrate/frame/support" }
+frame-system = { version = "4.0.0-dev", default-features = false, path = "../../../substrate/frame/system" }
+sp-core = { version = "7.0.0", default-features = false, path = "../../../substrate/primitives/core" }
+sp-io = { version = "7.0.0", default-features = false, path = "../../../substrate/primitives/io" }
+sp-runtime = { version = "7.0.0", default-features = false, path = "../../../substrate/primitives/runtime" }
+sp-std = { version = "5.0.0", default-features = false, path = "../../../substrate/primitives/std" }
+
+# Cumulus dependencies
+cumulus-primitives-core = { version = "0.1.0", default-features = false, path = "../../primitives/core" }
+cumulus-primitives-quantum-channel = { version = "0.1.0", default-features = false, path = "../../primitives/quantum-channel" }
+
+# Quantum & Actorx dependencies
+blake3 = { version = "1.3.3", default-features = false }
+pqc_kyber = { version = "0.7.1", default-features = false }
+pqc_dilithium = { version = "0.2.0", default-features = false }
+num-complex = { version = "0.4.4", default-features = false }
+ndarray = { version = "0.15.6", default-features = false }
+
+[dev-dependencies]
+sp-keystore = { version = "0.13.0", path = "../../../substrate/primitives/keystore" }
+
+[features]
+default = ["std"]
+std = [
+    "codec/std",
+    "scale-info/std",
+    "log/std",
+    "blake3/std",
+    "frame-benchmarking?/std",
+    "frame-support/std",
+    "frame-system/std",
+    "sp-core/std",
+    "sp-io/std",
+    "sp-runtime/std",
+    "sp-std/std",
+    "cumulus-primitives-core/std",
+    "cumulus-primitives-quantum-channel/std",
+    "num-complex/std",
+    "ndarray/std",
+]
+runtime-benchmarks = ["frame-benchmarking/runtime-benchmarks"]
+try-runtime = ["frame-support/try-runtime"]
